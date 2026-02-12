@@ -259,7 +259,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const no1 = document.getElementById('noBtn1');
     const secret = document.getElementById('secretAnswerBtn');
 
-    if (q1) q1.textContent = config.questions.first.text;
+    if (q1) q1.textContent = `${config.pageTitle}\n${config.questions.first.text}`;
     if (yes1) yes1.textContent = config.questions.first.yesBtn;
     if (no1) no1.textContent = config.questions.first.noBtn;
     if (secret) secret.textContent = config.questions.first.secretAnswer;
