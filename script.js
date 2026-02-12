@@ -251,7 +251,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // Set texts from config
     const titleEl = document.getElementById('valentineTitle');
-    if (titleEl) titleEl.textContent = `${config.valentineName}, my love...`;
+    if (titleEl) titleEl.textContent = `${config.valentineName} 🔥`;
 
     // Set first question texts
     const q1 = document.getElementById('question1Text');
